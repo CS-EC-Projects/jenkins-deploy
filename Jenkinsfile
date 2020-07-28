@@ -6,7 +6,7 @@ properties([[$class: 'JiraProjectProperty'], buildDiscarder(logRotator(artifactD
 
 stage('checkoutcode')
 {
-git branch: 'development', credentialsId: '5975a322-aa26-48dc-a271-2ff07428742d', url: 'https://github.com/CS-EC-Projects/Amazon.git'
+git branch: 'development', credentialsId: '5975a322-aa26-48dc-a271-2ff07428742d', url: 'https://github.com/CS-EC-Projects/Snapdeal.git'
 }
 stage('build')
 {
